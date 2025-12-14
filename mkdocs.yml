@@ -1,0 +1,74 @@
+site_name: Mohamed Elobaid
+site_url: https://mebbaid.github.io/
+site_description: Mohamed Elobaid - Robotics Research Portfolio
+site_author: Mohamed Elobaid
+
+theme:
+  name: material
+  palette:
+    # Light mode - vintage paper (DEFAULT)
+    - scheme: default
+      primary: brown
+      accent: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    # Dark mode - old terminal
+    - scheme: slate
+      primary: black
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  font:
+    text: Courier Prime
+    code: Courier Prime
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/mebbaid/mebbaid.github.io
+repo_name: mebbaid/mebbaid.github.io
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+  - Publications: publications.md
+  - CV: cv.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mebbaid
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mohamed-elobaid/
+
+extra_css:
+  - stylesheets/extra.css
