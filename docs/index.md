@@ -17,7 +17,7 @@ King Abdullah University of Science and Technology (KAUST)
 - **[May 2025]** 📄 Co-authored paper presented at **ICRA 2025**: *"Online Nonlinear MPC for Multimodal Locomotion"* 
 - **[Feb 2025]** 🏁 Successfully concluded the **Honda-AMI joint research** project on avatar robots (2022–2025).
 - **[Jan 2024]** 📄 Paper published in **IEEE Robotics and Automation Letters (RA-L)**: *"Online Non-linear Centroidal MPC with Stability Guarantees for Robust Locomotion of Legged Robots"*.
-- **[Nov 2024]** 🏆 Co-authored paper winner for the **IEEE-RAS Technical Committee on Whole-Body Control** at best paper award from previsou year at the **IEEE Humanoids 2024** (Nancy).
+- **[Nov 2024]** 🏆 Co-authored paper winner of the **IEEE-RAS Technical Committee on Whole-Body Control**  best paper award of previous year at the **IEEE Humanoids 2024** (Nancy).
 - **[Nov 2024]** 📄 Co-Authored paper published in **IEEE Robotics and Automation Letters (RA-L)**: *"XBG: End-to-end Imitation Learning for Autonomous Behaviour in HRI"*.
 - **[Nov 2024]** 📄 Paper presented at **IEEE Telepresence**: *"Remote telepresence over large distances via robot avatars: case studies"*.
 - **[June 2024]** 🚀 Finalized a technology transfer project for the full-stack teleoperation and control of **Workfar's Syntro** robot.
