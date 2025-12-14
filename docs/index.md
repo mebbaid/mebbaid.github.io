@@ -1,5 +1,7 @@
 # Mohamed Elobaid
 
+<img src="images/me-2.jpeg" alt="Mohamed Elobaid" style="float: left; margin-right: 30px; margin-bottom: 20px; width: 250px; border-radius: 10px; border: 3px solid currentColor; box-shadow: 5px 5px 15px rgba(0,0,0,0.3);">
+
 **Research Scientist**  
 Computer, Electrical and Mathematical Sciences and Engineering (CEMSE)  
 King Abdullah University of Science and Technology (KAUST)

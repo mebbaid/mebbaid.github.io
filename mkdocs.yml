@@ -36,9 +36,6 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
-repo_url: https://github.com/mebbaid/mebbaid.github.io
-repo_name: mebbaid/mebbaid.github.io
-
 nav:
   - Home: index.md
   - About: about.md
