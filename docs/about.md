@@ -11,7 +11,7 @@ My work sits at the intersection of **Control Theory** and **Applied Robotics**,
 
 - **Predictive Control**: I worked on both model-based and data-driven approaches. I have designed optimization-based controllers for bipedal and quadrupedal robots (Non-linear Centroidal MPC with stability certificates) and recently extended this to data-fused strategies for flying humanoids.
 
-- **Human-Robot Interaction**: I worked on robot teleoperation (where my initial work on iCub columniated, thanks to others, in the iCub3 avatar system featured in Science Robotics) and contributed to human-aware planners for ergonomic collaboration (earning IEEE RAS prizes and ICRA finalist nominations). Recently I designed vision based collaborative footstep planners for humanoid-human collaborative payload carrying. 
+- **Human-Robot Interaction**: I worked on robot teleoperation (where my initial work on iCub matured -thanks to others- into the iCub3 avatar system featured in Science Robotics) and contributed to human-aware planners for ergonomic collaboration (earning IEEE RAS prizes and ICRA finalist nominations). Recently I designed vision based collaborative footstep planners for humanoid-human collaborative payload carrying. 
 
 - **Nonlinear Digial and Geometric Control**: My Ph.D. thesis revolved around ontrollers requiring partial dynamics cancellation and their implementation in discrete time. This required understanding the effect
 of sampling and holding the control (digital implementation) on the resulting structure of the
