@@ -245,3 +245,112 @@
   margin: 2em 0;
   opacity: 0.3;
 }
+
+/* ============================================ */
+/* MOBILE RESPONSIVE STYLES */
+/* ============================================ */
+
+/* Mobile-specific optimizations */
+@media screen and (max-width: 76.1875em) {
+  /* Reduce padding on mobile */
+  .md-content {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Smaller fonts on mobile */
+  .md-typeset {
+    font-size: 0.85rem;
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.5rem;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablet and smaller screens */
+@media screen and (max-width: 60em) {
+  /* Make floating images stack on smaller screens */
+  .md-typeset img[style*="float"] {
+    float: none !important;
+    display: block;
+    margin: 1rem auto !important;
+    max-width: 100%;
+    width: auto !important;
+  }
+  
+  /* Profile photo on mobile */
+  .md-typeset img[alt*="Mohamed Elobaid"] {
+    width: 200px !important;
+    margin: 0 auto 1rem auto !important;
+  }
+}
+
+/* Phone screens */
+@media screen and (max-width: 480px) {
+  /* Even smaller text on phones */
+  .md-typeset {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.3rem;
+  }
+  
+  .md-typeset h2 {
+    font-size: 1.1rem;
+  }
+  
+  /* Smaller profile photo on phones */
+  .md-typeset img[alt*="Mohamed Elobaid"] {
+    width: 150px !important;
+  }
+  
+  /* Stack navigation links vertically */
+  .md-typeset a {
+    display: inline-block;
+    margin: 0.2rem 0;
+  }
+  
+  /* Make code blocks scroll horizontally on small screens */
+  .md-typeset pre {
+    overflow-x: auto;
+  }
+  
+  /* Adjust button sizes for mobile */
+  .md-button {
+    padding: 0.5em 1em;
+    font-size: 0.9rem;
+  }
+  
+  /* Reduce margins on mobile */
+  .md-content {
+    padding: 0.5rem 0.8rem;
+  }
+  
+  /* Better table display on mobile */
+  .md-typeset table {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.75rem;
+  }
+}
+
+/* Very small phones */
+@media screen and (max-width: 360px) {
+  .md-typeset {
+    font-size: 0.75rem;
+  }
+  
+  .md-typeset h1 {
+    font-size: 1.2rem;
+  }
+  
+  .md-typeset img[alt*="Mohamed Elobaid"] {
+    width: 120px !important;
+  }
+}

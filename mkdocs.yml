@@ -5,6 +5,7 @@ site_author: Mohamed Elobaid
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     # Light mode - vintage paper (DEFAULT)
     - scheme: default
