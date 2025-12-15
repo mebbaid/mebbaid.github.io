@@ -1,48 +1,26 @@
-Mohamed Elobaid is a Research Scientist with the Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division at **King Abdullah University of Science and Technology (KAUST)** (since September 2025).
+I am a Research Scientist with the Computer, Electrical and Mathematical Sciences and Engineering (CEMSE) Division at **King Abdullah University of Science and Technology (KAUST)** (since September 2025).
 
-His research focuses on the **solution of complex control problems in robotics**, applying rigorous theoretical frameworks—specifically geometric and sampled-data control—to diverse electro-mechanical systems. While his background is deeply rooted in humanoid and quadrupedal locomotion, his current work spans **underwater vehicles, agricultural manipulators, and wheeled robotic platforms.**
+<!-- His research focuses on the **solution of complex control problems in robotics**, applying rigorous theoretical frameworks—specifically geometric and sampled-data control—to diverse electro-mechanical systems. While his background is deeply rooted in humanoid and quadrupedal locomotion, his current work spans **underwater vehicles, agricultural manipulators, and wheeled robotic platforms.** -->
 
-Previously, he was a Postdoc Researcher at the **Italian Institute of Technology (IIT)** (2022–2025), where he led control design for avatar systems and legged robots, including a joint initiative with **Honda R&D**. He holds a cotutelle Ph.D. in Control Engineering (cum laude) from **Sapienza University of Rome** and **University of Paris Saclay**.
+My journey to robotics was not linear. In a previous life, I was a farmer and goat herder in a small village on the banks of the Blue Nile in Sudan, living without access to electricity. Somehow I ended up earning a Ph.D. (cum laude) from **Sapienza University of Rome** and **University of Paris Saclay**, and serving as a Postdoc at the **Italian Institute of Technology** (IIT) where I worked on avatar systems with Honda R&D, as well as certifiably robust legged robots locomotion controllers.
 
 ## Research Interests
 
-My work sits at the intersection of **Control Theory** and **Applied Robotics**, aiming to guarantee desireable control-theoretic properties and performance across different domains:
+My work sits at the intersection of **Control Theory** and **Applied Robotics**, aiming to guarantee desireable control-theoretic properties and performance across different domains.
 
-- **Advanced Robot Control:** Designing of optimization-based and geometric controllers for underactuated systems, including **bipedal, quadrupedal, and wheeled-humanoid** robots.
-- **Sampled-Data & Geometric Control:** Addressing the theoretical challenges of digital implementation, ensuring that physical properties (stability, passivity) are preserved under sampling.
-- **Human-Robot Systems:** Creating teleoperation interfaces (Telexistence) and human-aware planning for Physical Human-Robot Interaction (pHRI).
-- **Marine & Field Robotics:** Developing control architectures for **underwater towed intelligent vehicles**, ROVs, and **manipulators for automatic harvesting** in unstructured environments.
 
-## Research Highlights & Contributions
+- **Predictive Control**: I worked on both model-based and data-driven approaches. I have designed optimization-based controllers for bipedal and quadrupedal robots (Non-linear Centroidal MPC with stability certificates) and recently extended this to data-fused strategies for flying humanoids.
 
-**Locomotion & Whole-Body Control (IIT)**
-- **Legged & Wheeled Systems:** Developed MPC-based controllers validated on the **ergoCub humanoid** (as well as its predecessor iCub3) and the **Aliengo quadruped**.
-- **Robustness:** Formulated online Non-linear Centroidal MPC with closed-loop stability certificates.
+- **Human-Robot Interaction**: I worked on robot teleoperation (where my initial work on iCub columniated, thanks to others, in the iCub3 avatar system featured in Science Robotics) and contributed to human-aware planners for ergonomic collaboration (earning IEEE RAS prizes and ICRA finalist nominations). Recently I designed vision based collaborative footstep planners for humanoid-human collaborative payload carrying. 
 
-**Avatar Systems & Teleoperation**
-- **Telexistence:** Led technology transfer projects for robotic teleoperation and contributed to the **iCub3 avatar system** (featured in *Science Robotics*).
-- **Haptic Feedback:** Designed immersive VR-based interfaces for whole-body retargeting.
+- **Nonlinear Digial and Geometric Control**: My Ph.D. thesis revolved around ontrollers requiring partial dynamics cancellation and their implementation in discrete time. This required understanding the effect
+of sampling and holding the control (digital implementation) on the resulting structure of the
+closed loop system, as well as the possibility of applying those
+controller synthesis methods to problems that can be cast as sets stabilization problems e.g. path
+following and periodic orbits stabilization. 
 
-**Human-Robot Interaction**
-- **Safety & Ergonomics:** Finalist for the **IEEE ICRA Outstanding Paper on HRI** (2023) for work on ergonomic payload lifting and collision avoidance planning.
-- **Human-aware motion planning** Developed vision-based collaborative walking planners for the ergoCub robot to carry payloads in collaboration with a human
-
-**Marine & Agricultural Robotics (KAUST)**
-- **Underwater Systems:** Currently working on control strategies for underwater towed vehicles and Remotely Operated Vehicles (ROVs) for shallow-water inspection.
-- **Agricultural Automation:** Managing the implementation of manipulation control strategies for autonomous date palm harvesting robots.
-
-## Skills & Tools
-
-**Programming & Languages:**  
-C++ (Modern), C, Python, MATLAB/Simulink, IEC 61131-3 (PLC)
-
-**Robotics Frameworks:**  
-ROS2 humble (Robostack), YARP, Gazebo, Pixi, CI/CD pipelines
-
-**Control Theory:**  
-Model Predictive Control (MPC), Nonlinear Geometric Control, Digital Control, Control Problems in Robotics
-
+- **Field & Marine Robotics**: In my current role, I am learning about and developing control architectures for underwater towed vehicles, ROVs, and agricultural manipulators, tackling the challenges of unstructured and field environments.
 
 ---
 
-*Feel free to reach out for collaborations regarding control theory applications in marine, legged, or industrial robotics!*
+*Feel free to reach out for collaborations regarding control theory applications in robotics!*
