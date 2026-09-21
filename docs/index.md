@@ -11,7 +11,12 @@ King Abdullah University of Science and Technology (KAUST)
 ---
 
 ## 📢 News
-
+- **[Sept. 2026]** Funded Project kickOff *"OptiStep: Hardware-and-Control Co-Design of an Adaptive Active Ankle-
+Knee Prosthesis"*.
+- **[July 2026]** Workshop coorganization on *"Safety-Critical Software and Control for Robotics"* during IEEE ARM2026.
+- **[April 2026]** 🚀 Software is public *"GaasQP: Geometrically-Accelerated Active Set QP Solver"*.
+- **[April 2026]** 📄 Co-authored paper accepted to **Nature Machine Intelligence**: *"Towards a shared embodied intelligence of humanoid robots: Optimization, development, and testing of the human-aware ergocub robot"*.
+- **[April 2026]** 📄 Paper accepted to **IFAC World Congress**: *"On the Stabilization of Rigid Formations on Regular Curves"*.
 - **[Dec 2025]** 📄 Paper accepted to **IEEE Control Systems Letters (L-CSS)**: *"Data-fused Model Predictive Control with Guarantees: Application to Flying Humanoid Robots"*.
 - **[Sept 2025]** 🏛️ Joined **KAUST** (Saudi Arabia) as a Research Scientist in the CEMSE Division.
 - **[May 2025]** 📄 Co-authored paper presented at **ICRA 2025**: *"Online Nonlinear MPC for Multimodal Locomotion"* 
